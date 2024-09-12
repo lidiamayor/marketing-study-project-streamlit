@@ -11,6 +11,12 @@ from functions_click import read_df_click, clean_df_click, click_by_category, cl
 
 
 def main():
+    """
+    Main function of the Streamlit app. It contains the layout and 
+    functionality of the app.
+
+    The app is divided into three sections: Wine Consumption Study, Marketing Study and Click Study.
+    """
 
     st.title('Data-Analysis marketing strategy for a wine company')
     st.write('##### Our goal is to thoroughly analyze the available data to craft the most effective marketing campaign.')
@@ -18,6 +24,7 @@ def main():
     st.write('##### Identifying the largest consumer group: By examining demographic factors such as age, gender, and income, we will pinpoint who the top wine consumers are. This will enable us to create highly targeted and personalized campaigns for the right audience.')
     st.write('##### Understanding the most popular purchasing channels: We will assess whether customers prefer to buy in physical stores, through catalogs, or online. This information will help direct marketing efforts toward the most effective sales channels.')
     st.write('##### Optimizing ad click-through rates: By analyzing consumer interests (fashion, technology, travel, sports, etc.), we will identify which types of ads generate the highest engagement and clicks, especially across different income groups. This will allow us to create compelling ads that resonate with the target audience.')
+
     ######################## Wine Consumption Section #############################################
     st.divider()
     total_conclusions1 = []
@@ -52,7 +59,6 @@ def main():
     total_conclusions1.append(c2)
 
     # By genre
-    
     st.write('#### Percentage consumers by genres')
     genre_filter = st.radio("Select genre", ['Both', 'Men', 'Women'])
     
