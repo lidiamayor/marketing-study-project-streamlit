@@ -83,8 +83,6 @@ def main():
                 st.write(f'##### - {conc}')
 
 
-
-
     ######################## Marketing Study Section #############################################
     st.divider()
     total_conclusions2 = []
@@ -210,7 +208,7 @@ def main():
 
 
     st.write('#### Percentage click by category and income')
-    plt = click_by_category_income(filtered_click)
+    plt = click_by_category_income(filtered2_click)
     st.pyplot(plt)
 
     c14 = st.text_input('Conclusion 14: ')
@@ -218,7 +216,7 @@ def main():
 
 
     st.write('#### Percentage click by category and age')
-    plt = click_by_category_age(filtered2_click)
+    plt = click_by_category_age(filtered_click)
     st.pyplot(plt)
 
     c15 = st.text_input('Conclusion 15: ')
