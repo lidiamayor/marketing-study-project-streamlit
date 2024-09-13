@@ -9,19 +9,19 @@ Our Streamlit app allows users to explore key insights from our data analysis in
 ## 📸 Key Visual Insights
 
 ### 1. General Overview of the App
-[Streamlit App Overview](https://github.com/lidiamayor/marketing-study-project-streamlit/blob/main/images/wine_consume.png)  
+![Streamlit App Overview](https://github.com/lidiamayor/marketing-study-project-streamlit/blob/main/images/wine_consume.png)  
 *This image provides a general look at the Streamlit app, showcasing the various graphs, sliders, and parameters available for users to adjust in the sidebar. The user interface allows for dynamic interaction with the data, giving a customizable experience.*
 
 ### 2. Wine Purchase vs. Income Graph Parameters
-[Wine Purchase vs. Income](https://github.com/lidiamayor/marketing-study-project-streamlit/blob/main/images/marketing.png)  
+![Wine Purchase vs. Income](https://github.com/lidiamayor/marketing-study-project-streamlit/blob/main/images/marketing.png)  
 *Here, users can modify parameters related to income and see how wine purchase quantities change accordingly. The sliders on the sidebar allow users to fine-tune specific income ranges, providing an insightful analysis of purchasing behavior.*
 
 ### 3. Adding and Viewing Comments
-[Commenting System](https://github.com/lidiamayor/marketing-study-project-streamlit/blob/main/images/middle_conclusions.png)  
+![Commenting System](https://github.com/lidiamayor/marketing-study-project-streamlit/blob/main/images/middle_conclusions.png)  
 *This screenshot demonstrates the feature that allows users to add comments during each analysis. Users can leave observations or notes as they explore the data. These comments are accessible through the sidebar and are specific to each individual study.*
 
 ### 4. Final Conclusions Display
-[Final Conclusions](https://github.com/lidiamayor/marketing-study-project-streamlit/blob/main/images/finally_conclusions.png)  
+![Final Conclusions](https://github.com/lidiamayor/marketing-study-project-streamlit/blob/main/images/finally_conclusions.png)  
 *At the end of the analysis, all comments and insights are consolidated into a final conclusions section. This image shows how the conclusions are displayed, summarizing the key takeaways from the study.*
 
 ## 📈 Original Data Analysis
