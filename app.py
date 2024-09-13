@@ -3,11 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
-
 from functions_product import read_df_product, clean_df_product, consume_wine, consume_m_w_by_age, consume_men_women, consume_by_age
 from functions_marketing import read_df_marketing, clean_df_marketing, site_purchases_by_age, site_purchases_by_income, web_visits_by_age, purchases_by_income, purchases_by_income_line, purchases_by_education, son_at_home, purchases_by_living_status, purchases_by_month
 from functions_click import read_df_click, clean_df_click, click_by_category, click_by_category_income, click_by_category_age
-
 
 
 def main():
