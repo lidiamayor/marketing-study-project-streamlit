@@ -24,8 +24,9 @@ def main():
     st.write('##### Identifying the largest consumer group: By examining demographic factors such as age, gender, and income, we will pinpoint who the top wine consumers are. This will enable us to create highly targeted and personalized campaigns for the right audience.')
     st.write('##### Understanding the most popular purchasing channels: We will assess whether customers prefer to buy in physical stores, through catalogs, or online. This information will help direct marketing efforts toward the most effective sales channels.')
     st.write('##### Optimizing ad click-through rates: By analyzing consumer interests (fashion, technology, travel, sports, etc.), we will identify which types of ads generate the highest engagement and clicks, especially across different income groups. This will allow us to create compelling ads that resonate with the target audience.')
-
+    
     ######################## Wine Consumption Section #############################################
+    
     st.divider()
     total_conclusions1 = []
     # Load data 
@@ -40,7 +41,6 @@ def main():
     # By age
     st.write('#### Percentage spanish people >16 consumers/not consumers')
     age_filter1 = st.selectbox("Select age range", df_both['years'].unique())
-    #st.write(f'Range: {age_filter}')
     filtered_wine = df_both[df_both['years'] == age_filter1]
     plt = consume_wine(filtered_wine)
     st.pyplot(plt)
@@ -90,6 +90,7 @@ def main():
 
 
     ######################## Marketing Study Section #############################################
+    
     st.divider()
     total_conclusions2 = []
     # Load data 
@@ -185,6 +186,7 @@ def main():
 
 
     ######################## Click Study Section #############################################
+    
     st.divider()
     total_conclusions3 = []
     # Load data 
@@ -238,6 +240,7 @@ def main():
 
 
     ############################## SUMMARY CONCLUSIONS #########################
+    
     st.divider()
 
     total_conclusions = total_conclusions1 + total_conclusions2 + total_conclusions3
@@ -246,7 +249,6 @@ def main():
     for conclusion in total_conclusions:
         if conclusion != '':
             st.write(f'##### - {conclusion}')
-
 
 
     

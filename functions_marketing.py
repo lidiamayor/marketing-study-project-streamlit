@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
+
 def read_df_marketing():
     """
     Reads the marketing_campaign.xlsx dataset from the datasets folder into a pandas DataFrame.
@@ -123,6 +124,7 @@ def site_purchases_by_age(df_wine):
     # Return the figure
     return plt
 
+
 def site_purchases_by_income(df_wine):
     """
     Creates a bar plot of the average purchases by income range.
@@ -227,6 +229,7 @@ def purchases_by_income(df_income):
     # Return the figure
     return plt
 
+
 def purchases_by_income_line(df_income):
     """
     Creates a scatter plot of the relationship between income and wine purchases with a regression line.
@@ -284,6 +287,7 @@ def purchases_by_education(df):
     # Return the figure
     return plt
 
+
 def son_at_home(df):
     """
     Creates a pie chart of the average number of wine purchases by customers
@@ -303,6 +307,7 @@ def son_at_home(df):
 
     # Return the figure
     return plt
+
 
 def purchases_by_living_status(df):
     """
@@ -332,6 +337,7 @@ def purchases_by_living_status(df):
 
     # Return the figure
     return plt
+
 
 def purchases_by_month(df):
     """

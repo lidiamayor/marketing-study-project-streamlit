@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
+
 def read_df_click():
     """
     Reads the adsclicking.csv dataset from the datasets folder into a pandas DataFrame.
@@ -10,7 +11,6 @@ def read_df_click():
     url = 'datasets/adsclicking.csv'
     df_click = pd.read_csv(url).copy()
     return df_click
-
 
 
 def clean_df_click(df):
@@ -32,6 +32,7 @@ def clean_df_click(df):
     df['Age_Range'] = pd.cut(df['Age'], bins=bins, labels=labels, include_lowest=True)
 
     return df
+
 
 def click_by_category(df, size):
     """
@@ -108,6 +109,7 @@ def click_by_category_income(df):
 
     # Return the figure
     return plt
+
 
 def click_by_category_age(df):
     """

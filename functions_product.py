@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
+
 def read_df_product():
     """
     Reads the consumers.xls dataset from the datasets folder into a pandas DataFrame.
@@ -10,6 +11,7 @@ def read_df_product():
     url = 'datasets/consumers.xls'
     df_product = pd.read_excel(url)
     return df_product
+
 
 def clean_df_product(df):
     """
@@ -87,6 +89,7 @@ def consume_wine(df_both):
     # Return the figure
     return plt
 
+
 def consume_m_w_by_age(df_men, df_women, x):
     """
     Creates a bar chart of the percentage of consumers by age range for men and women.
@@ -134,6 +137,7 @@ def consume_m_w_by_age(df_men, df_women, x):
     # Return the figure
     return plt
 
+
 def consume_men_women(df_men, df_women):
     """
     Creates a bar chart of the percentage of consumers for men and women.
@@ -160,6 +164,7 @@ def consume_men_women(df_men, df_women):
 
     # Return the figure
     return plt
+
 
 def consume_by_age(df_both):
     """
