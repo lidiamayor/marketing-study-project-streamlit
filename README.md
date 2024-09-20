@@ -4,7 +4,7 @@ Hello, data enthusiasts! 🌟 We are [Lidia Mayor](https://www.linkedin.com/in/l
 
 ## 🖥️ App Overview
 
-Our Streamlit app allows users to explore key insights from our data analysis interactively. You can visualize wine consumption trends based on various demographic factors such as age, gender, and income.
+Our [Streamlit app](https://marketing-study-project-app-lidiamayor.streamlit.app/) allows users to explore key insights from our data analysis interactively. You can visualize wine consumption trends based on various demographic factors such as age, gender, and income.
 
 ## 📸 Key Visual Insights
 
