@@ -1,4 +1,4 @@
-# 🌐 Streamlit App for Wine Consumption Analysis
+# 🌐 Streamlit App for Data-Analysis marketing strategy for a wine company
 
 Hello, data enthusiasts! 🌟 We are [Lidia Mayor](https://www.linkedin.com/in/lidia-mayor-sanjuan-3b350930b/) and [Ana Nofuentes](https://www.linkedin.com/in/ana-nofuentes-solano-654026a3/), students from a data analysis bootcamp. This repository contains the code for a Streamlit app designed to help visualize and interact with the findings of our wine consumption analysis.
 
